@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0%;
+        min-height: 100vh;
+        place-content: center;
+        display: grid;
+        color: rgb(2, 25, 65);
+        background: whitesmoke;
+        font-family: sans-serif;
+      }
+
+      .card-conatiner,
+      .Pro {
+        max-width: 15rem;
+        width: 700px;
+        height: 100%;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow: 3px 3px 10px 10px rgba(10, 4, 4, 0.1);
+        background: white;
+        padding: 20px;
+        border-radius: 20px;
+        transition: all 1s;
+        /* flex-wrap: wrap; */
+      }
+      .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: row;
+        justify-content: space-evenly; */
+        gap: 30px;
+        width: max-width;
+        height: 550px;
+      }
+
+      .card-conatiner:hover {
+        transform: scale(1.1);
+        background: rgb(2, 25, 65);
+        color: white;
+      }
+      .Pro:hover {
+        transform: scale(1.1);
+        background: rgb(2, 25, 65);
+        color: white;
+
+        .Save {
+          width: 70px;
+          height: 20px;
+          border-radius: 5px;
+          background-color: white;
+          position: absolute;
+          left: 200px;
+          top: 20px;
+          color: purple;
+          /* padding-top: 10px; */
+          padding-left: 5px;
+        }
+      }
+      h3 {
+        text-align: center;
+        background: blueviolet;
+        height: 48px;
+        padding-top: 15px;
+        width: 240px;
+        place-items: center;
+        border-radius: 10px;
+        color: white;
+        font-size: 25px;
+      }
+      .list-container {
+        font-size: 20px;
+        list-style: none;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        line-height: 2;
+      }
+      .span {
+        font-size: 1000px;
+      }
+
+      .pro {
+        position: relative;
+      }
+      .prosave {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="card-conatiner">
+        <h1>Intro</h1>
+        <ul class="list-container">
+          <li>✔ Upload video upto 720p Resolution</li>
+          <li style="opacity: 30%">✖ Attachment & Post Scheduling</li>
+          <li style="opacity: 30%">✖ Set your rates</li>
+          <li style="opacity: 30%">✖ Exclusive Deals</li>
+          <li style="opacity: 30%">✖Advanced Statistics</li>
+        </ul>
+        <p>
+          $<span style="font-size: 40px; font-weight: bold">123</span>/month
+        </p>
+        <div class="choose">
+          <h3>Choose</h3>
+        </div>
+      </div>
+      <div class="card-conatiner">
+        <h1>Base</h1>
+        <ul class="list-container">
+          <li>✔ Upload video upto 720p Resolution</li>
+          <li>✖ Attachment & Post Scheduling</li>
+          <li style="opacity: 30%">✖ Set your rates</li>
+          <li style="opacity: 30%">✖ Exclusive Deals</li>
+          <li style="opacity: 30%">✖Advanced Statistics</li>
+        </ul>
+        <p>
+          $<span style="font-size: 40px; font-weight: bold">123</span>/month
+        </p>
+        <div class="choose">
+          <h3>Choose</h3>
+        </div>
+      </div>
+      <div class="Pro">
+        <div class="prosave">
+          <h1>Pro</h1>
+          <div class="Save">Save $40</div>
+        </div>
+        <ul class="list-container">
+          <li>✔ Upload video upto 720p Resolution</li>
+          <li>✖ Attachment & Post Scheduling</li>
+          <li>✖ Set your rates</li>
+          <li>✖ Exclusive Deals</li>
+          <li style="opacity: 30%">✖Advanced Statistics</li>
+        </ul>
+        <p>
+          $<span style="font-size: 40px; font-weight: bold">123</span>/month
+        </p>
+        <div class="choose">
+          <h3>Choose</h3>
+        </div>
+      </div>
+      <div class="card-conatiner">
+        <h1>Enterprise</h1>
+        <ul class="list-container">
+          <li>✔ Upload video upto 720p Resolution</li>
+          <li>✖ Attachment & Post Scheduling</li>
+          <li>✖ Set your rates</li>
+          <li>✖ Exclusive Deals</li>
+          <li>✖Advanced Statistics</li>
+          <li>$ <span>123</span> /month</li>
+        </ul>
+        <p>
+          $<span style="font-size: 40px; font-weight: bold">123</span>/month
+        </p>
+        <div class="choose">
+          <h3>Choose</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
